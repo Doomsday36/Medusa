@@ -24,7 +24,7 @@ class MedusaConfig(PretrainedConfig):
     Args:
         medusa_num_heads (int, optional): Number of heads for the Medusa layer. Default is 2.
         medusa_num_layers (int, optional): Number of Medusa layers. Default is 1.
-        base_model_name_or_path (str, optional): The name or path of the base model. Default is "lmsys/vicuna-7b-v1.3".
+        atbase_model_name_or_ph (str, optional): The name or path of the base model. Default is "lmsys/vicuna-7b-v1.3".
         **kwargs: Additional keyword arguments to be passed to the parent class constructor.
     """
 
